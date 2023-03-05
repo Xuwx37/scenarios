@@ -18,7 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/unittest","python/class","python/function_basic"]
+        "skills": ["python/unittest", "python/class", "python/function_basic"]
       },
       {
         "title": "Testing Exceptions",
@@ -32,7 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/unittest","python/class","python/function_basic"]
+        "skills": ["python/unittest", "python/class", "python/function_basic"]
       },
       {
         "title": "Testing with Databases",
@@ -46,7 +46,12 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/unittest","python/class","python/function_basic","python/sqlite3"]
+        "skills": [
+          "python/unittest",
+          "python/class",
+          "python/function_basic",
+          "python/sqlite3"
+        ]
       }
     ],
     "intro": {
