@@ -1,1 +1,1 @@
-cat ~/.python_history | grep "e\[.*\] =" 
+grep -E "e\[.*\] =|e\[.*\]=" ~/.python_history
