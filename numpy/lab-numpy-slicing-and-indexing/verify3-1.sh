@@ -1,1 +1,1 @@
-grep -E "d\[.*\]" ~/.python_history
+cat ~/.python_history | grep "d\[.*\]"

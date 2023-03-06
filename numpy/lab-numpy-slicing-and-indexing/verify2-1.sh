@@ -1,1 +1,1 @@
-grep -E ">" ~/.python_history
+cat ~/.python_history | grep ">"

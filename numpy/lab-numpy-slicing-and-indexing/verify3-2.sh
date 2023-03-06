@@ -1,1 +1,1 @@
-grep -E "e\[.*\] = .*|e\[.*\]= .*|e\[.*\]=.*" ~/.python_history
+cat ~/.python_history | grep "e\[.*\] =" 
