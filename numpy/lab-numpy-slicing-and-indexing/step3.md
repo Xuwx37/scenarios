@@ -1,6 +1,6 @@
 # Fancy Indexing
 
-- Fancy indexing is a way of indexing an array using an array of indices. You can use this technique to extract specific elements or subsets of an array.
+Fancy indexing is a way of indexing an array using an array of indices. You can use this technique to extract specific elements or subsets of an array.
 
 ```python
 # create a 1-dimensional array
