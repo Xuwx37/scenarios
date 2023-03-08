@@ -17,11 +17,11 @@ In the `__getitem__` method, there are two branches:
 The syntax of slicing is:
 
 ```python
-list[start,stop,step]
+list[start:stop:step]
 ```
 
 - `start` is the starting position of slicing.
-- `end` is the end position of slicing.
+- `stop` is the end position of slicing.
 - `step` is the step length of slicing.
 
 ## Setitem Method
