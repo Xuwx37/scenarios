@@ -12,7 +12,7 @@ class TestMagicList(unittest.TestCase):
         self.assertEqual(result, [1, 2, 3, 4, 5, 6])
 
     def test_iadd(self):
-        self.magic_list._data += [4,5,6]
+        self.magic_list += [4,5,6]
         self.assertEqual(self.magic_list._data, [1, 2, 3, 4, 5, 6])
 
 if __name__ == '__main__':
