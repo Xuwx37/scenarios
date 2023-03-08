@@ -2,7 +2,7 @@
   "type": "challenge",
   "title": "Make Object Like List",
   "description": "In this challenge, you will create a Python class that behaves like a list, but with some magic methods that will make it even more powerful.",
-  "difficulty": "Beginner",
+  "difficulty": "Intermediate",
   "time": 25,
   "details": {
     "steps": [
@@ -43,8 +43,7 @@
         "skills": [
           "python/__getitem__",
           "python/__setitem__",
-          "python/if_else",
-          ""
+          "python/if_else"
         ]
       },
       {
