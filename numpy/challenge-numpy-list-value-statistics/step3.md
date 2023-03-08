@@ -1,4 +1,4 @@
-# Sub-Challenge: Correlation Coefficient
+# Correlation Coefficient
 
 In this sub-challenge, you will write a Python function that takes two lists of numbers as input and returns the correlation coefficient between the two lists using NumPy.
 

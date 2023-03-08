@@ -7,7 +7,7 @@
   "details": {
     "steps": [
       {
-        "title": "Sub-Challenge: Mean and Median",
+        "title": "Mean and Median",
         "text": "step1.md",
         "verify": [
           {
@@ -28,7 +28,7 @@
         ]
       },
       {
-        "title": "Sub-Challenge: Standard Deviation",
+        "title": "Standard Deviation",
         "text": "step2.md",
         "verify": [
           {
@@ -47,7 +47,7 @@
         ]
       },
       {
-        "title": "Sub-Challenge: Correlation Coefficient",
+        "title": "Correlation Coefficient",
         "text": "step3.md",
         "verify": [
           {

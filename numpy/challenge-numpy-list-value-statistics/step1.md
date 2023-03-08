@@ -1,4 +1,4 @@
-# Sub-Challenge: Mean and Median
+# Mean and Median
 
 In this sub-challenge, you will write a Python function that takes a list of numbers as input and returns the mean and median of the numbers using NumPy.
 

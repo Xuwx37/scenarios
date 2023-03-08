@@ -1,4 +1,4 @@
-# Sub-Challenge: Standard Deviation
+# Standard Deviation
 
 In this sub-challenge, you will write a Python function that takes a list of numbers as input and returns the standard deviation of the numbers using NumPy.
 Examples:
