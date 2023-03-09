@@ -1,1 +1,0 @@
-grep -E "np.sqrt|np.exp|np.sin|np.cos|np.log"  ~/.python_history

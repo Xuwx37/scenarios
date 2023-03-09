@@ -1,1 +1,1 @@
-grep -E "\+|-|\*|/|%|\*\*"  ~/.python_history
+grep -E "\+" ~/.python_history

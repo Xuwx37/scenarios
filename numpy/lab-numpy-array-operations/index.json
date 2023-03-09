@@ -25,15 +25,85 @@
             "showstderr": false
           },
           {
-            "name": "Please perform element-wise operations",
+            "name": "Please add two arrays",
             "file": "verify1-3.sh",
             "hint": "Please follow the steps to complete the operation.",
             "timeout": 0,
             "showstderr": false
           },
           {
-            "name": "Please perform array-wise operations",
+            "name": "Please subtract two arrays",
             "file": "verify1-4.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please multiply two arrays",
+            "file": "verify1-5.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please divide two arrays",
+            "file": "verify1-6.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the remainder after division of two arrays",
+            "file": "verify1-7.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please raise elements of an array to a power",
+            "file": "verify1-8.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the sum of all elements in the array",
+            "file": "verify1-9.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the product of all elements in the array",
+            "file": "verify1-10.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the minimum element in the array",
+            "file": "verify1-11.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the maximum element in the array",
+            "file": "verify1-12.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the average of all elements in the array",
+            "file": "verify1-13.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the standard deviation of all elements in the array",
+            "file": "verify1-14.sh",
             "hint": "Please follow the steps to complete the operation.",
             "timeout": 0,
             "showstderr": false
@@ -56,8 +126,29 @@
         "text": "step2.md",
         "verify": [
           {
-            "name": "Please perform broadcasting operations",
-            "file": "verify2.sh",
+            "name": "Please add two arrays using broadcasting",
+            "file": "verify2-1.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please subtracting two arrays using broadcasting",
+            "file": "verify2-2.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please multiplying two arrays using broadcasting",
+            "file": "verify2-3.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please dividing two arrays using broadcasting",
+            "file": "verify2-4.sh",
             "hint": "Please follow the steps to complete the operation.",
             "timeout": 0,
             "showstderr": false
@@ -75,12 +166,41 @@
         "text": "step3.md",
         "verify": [
           {
-            "name": "Please perform universal functions",
-            "file": "verify3.sh",
+            "name": "Please find the square root of each element in the array",
+            "file": "verify3-1.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the exponential of each element in the array",
+            "file": "verify3-2.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the sine of each element in the array",
+            "file": "verify3-3.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the cosine of each element in the array",
+            "file": "verify3-4.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please find the natural logarithm of each element in the array",
+            "file": "verify3-5.sh",
             "hint": "Please follow the steps to complete the operation.",
             "timeout": 0,
             "showstderr": false
           }
+
         ],
         "skills": [
           "numpy/array",

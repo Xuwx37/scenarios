@@ -6,17 +6,17 @@ Let's create an array and perform some broadcasting operations:
 
 ```python
 # Creating two arrays of different shapes
-arr1 = np.array([1, 2, 3])
-arr2 = np.array([[4, 5, 6], [7, 8, 9]])
+array1 = np.array([1, 2, 3])
+array2 = np.array([[4, 5, 6], [7, 8, 9]])
 
 # Broadcasting the smaller array to the larger array
-print("Adding two arrays using broadcasting: ", arr1 + arr2)
+print("Adding two arrays using broadcasting: ", array1 + array2)
 
-print("Subtracting two arrays using broadcasting: ", arr1 - arr2)
+print("Subtracting two arrays using broadcasting: ", array1 - array2)
 
-print("Multiplying two arrays using broadcasting: ", arr1 * arr2)
+print("Multiplying two arrays using broadcasting: ", array1 * array2)
 
-print("Dividing two arrays using broadcasting: ", arr1 / arr2)
+print("Dividing two arrays using broadcasting: ", array1 / array2)
 ```
 
 Output:
@@ -35,4 +35,4 @@ Dividing two arrays using broadcasting:  [[0.25       0.4        0.5       ]
                                            [0.14285714 0.25       0.33333333]]
 ```
 
-In the above code, we create two arrays, `arr1` with the shape (3,) and `arr2` with the shape (2,3). We perform element-wise operations between `arr1` and `arr2`, thanks to the broadcasting feature in NumPy. The smaller array, `arr1`, is broadcasted to the larger array, `arr2`, to perform element-wise operations. Broadcasting makes it possible to perform operations on arrays with different shapes.
+In the above code, we create two arrays, `array1` with the shape (3,) and `array2` with the shape (2,3). We perform element-wise operations between `arr1` and `array2`, thanks to the broadcasting feature in NumPy. The smaller array, `array1`, is broadcasted to the larger array, `array2`, to perform element-wise operations. Broadcasting makes it possible to perform operations on arrays with different shapes.
