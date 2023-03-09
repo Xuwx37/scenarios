@@ -1,0 +1,1 @@
+grep -E "np.sum|np.prod|np.min|np.max|np.mean|np.std"  ~/.python_history

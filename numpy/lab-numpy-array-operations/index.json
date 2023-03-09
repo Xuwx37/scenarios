@@ -1,0 +1,108 @@
+{
+  "type": "lab",
+  "title": "NumPy Array Operations",
+  "description": "In this lab, you will learn three topics related to NumPy Array Operations:Mathematical Operations, Broadcasting and Universal Functions.",
+  "difficulty": "Beginner",
+  "time": 15,
+  "details": {
+    "steps": [
+      {
+        "title": "Please replace this text with the title of the step",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Check if open the Python shell",
+            "file": "verify1-1.sh",
+            "hint": "You need to open the Python shell to continue.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Check if import Numpy",
+            "file": "verify1-2.sh",
+            "hint": "You need to import Numpy to continue.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please perform element-wise operations",
+            "file": "verify1-3.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please perform array-wise operations",
+            "file": "verify1-4.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "numpy/array",
+          "numpy/array_operation",
+          "numpy/sum",
+          "numpy/prod",
+          "numpy/min",
+          "numpy/max",
+          "numpy/mean",
+          "numpy/std",
+          "python/print"
+        ]
+      },
+      {
+        "title": "Broadcasting",
+        "text": "step2.md",
+        "verify": [
+          {
+            "name": "Please perform broadcasting operations",
+            "file": "verify2.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "numpy/array",
+          "numpy/array_operation",
+          "numpy/broadcasting",
+          "python/print"
+        ]
+      },
+      {
+        "title": "Universal Functions",
+        "text": "step3.md",
+        "verify": [
+          {
+            "name": "Please perform universal functions",
+            "file": "verify3.sh",
+            "hint": "Please follow the steps to complete the operation.",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "numpy/array",
+          "numpy/array_operation",
+          "numpy/sqrt",
+          "numpy/exp",
+          "numpy/sin",
+          "numpy/cos",
+          "numpy/log",
+          "python/print"
+        ]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "vnc-ubuntu:2204"
+  }
+}
