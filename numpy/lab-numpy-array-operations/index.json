@@ -7,7 +7,7 @@
   "details": {
     "steps": [
       {
-        "title": "Please replace this text with the title of the step",
+        "title": "Mathematical Operations",
         "text": "step1.md",
         "verify": [
           {
