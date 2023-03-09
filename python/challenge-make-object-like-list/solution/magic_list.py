@@ -103,6 +103,7 @@ class MagicList:
             None
         """
         self._data += other
+        return self._data
 
     def __sub__(self, other: List[any]) -> List[any]:
         """

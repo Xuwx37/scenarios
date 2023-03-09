@@ -7,7 +7,7 @@ In this sub-challenge, you will implement arithmetic operations in the `MagicLis
 - The class should have a `__sub__` method that removes all occurrences of items from the second list in the first list.
 - The class should have a `__mul__` method that repeats the list a certain number of times.
 
-## Sub Method
+### Sub Method
 
 The `__sub__` method uses list comprehension to remove all occurrences of items from the second list in the first list.
 
@@ -19,7 +19,7 @@ new_list = [out_expression for item in first_list if condition]
 
 - `condition` is a boolean expression, in this step, we judge whether the `item` in the `first_list` doesn't occurr from the second list.
 
-## Mul Method
+### Mul Method
 
 The `__mul__` method uses `*` operator to repeat the list.
 

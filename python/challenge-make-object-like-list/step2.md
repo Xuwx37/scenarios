@@ -7,7 +7,7 @@ In this sub-challenge, you will implement slicing operations in the `MagicList` 
 - The class should support slicing with the colon notation (`:`).
 - The class should support negative indices in slicing.
 
-## Getitem Method
+### Getitem Method
 
 In the `__getitem__` method, there are two branches:
 
@@ -24,7 +24,7 @@ list[start:stop:step]
 - `stop` is the end position of slicing.
 - `step` is the step length of slicing.
 
-## Setitem Method
+### Setitem Method
 
 In `__setitem__` method, there are two branches:
 

@@ -7,11 +7,11 @@ In this sub-challenge, you will implement sorting operations in the MagicList cl
 - The class should have a `__lt__` method that compares the items in the list for sorting.
 - The class should have a `sort` method that sorts the list.
 
-## It Method
+### It Method
 
 The `__lt__` method uses the `<` operator to compare the items in the list for sorting.
 
-## Sort Method
+### Sort Method
 
 The `sort` method uses `sort()` function to sort the list.
 
