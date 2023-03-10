@@ -43,7 +43,8 @@
         "skills": [
           "python/__getitem__",
           "python/__setitem__",
-          "python/if_else"
+          "python/if_else",
+          "python/list"
         ]
       },
       {
