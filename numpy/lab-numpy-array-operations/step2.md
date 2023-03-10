@@ -35,4 +35,4 @@ Dividing two arrays using broadcasting:  [[0.25       0.4        0.5       ]
                                            [0.14285714 0.25       0.33333333]]
 ```
 
-In the above code, we create two arrays, `array1` with the shape (3,) and `array2` with the shape (2,3). We perform element-wise operations between `arr1` and `array2`, thanks to the broadcasting feature in NumPy. The smaller array, `array1`, is broadcasted to the larger array, `array2`, to perform element-wise operations. Broadcasting makes it possible to perform operations on arrays with different shapes.
+In the above code, we create two arrays, `array1` with the shape (3,) and `array2` with the shape (2,3). We perform element-wise operations between `array1` and `array2`, thanks to the broadcasting feature in NumPy. The smaller array, `array1`, is broadcasted to the larger array, `array2`, to perform element-wise operations. Broadcasting makes it possible to perform operations on arrays with different shapes.
