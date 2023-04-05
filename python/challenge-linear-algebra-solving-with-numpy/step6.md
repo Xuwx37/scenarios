@@ -4,7 +4,7 @@
 
 Write a Python function `matrix_rank(matrix)` that takes a NumPy matrix as input and calculates its rank. The function should return the rank of the matrix as an integer.
 
-- The `numpy.linalg.matrix_rank` function is used to return the rank of the matrix as an integer.
+- The `numpy.linalg.matrix_rank(matrix)` function is used to return the rank of the `matrix` as an integer.
 
 ## Example Input
 

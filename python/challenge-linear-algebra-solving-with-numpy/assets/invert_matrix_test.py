@@ -8,14 +8,14 @@ from invert_matrix import invert_matrix
 
 class TestMatrixInversion(unittest.TestCase):
     def test_invert_matrix(self):
-        A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+        A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 12]])
         B = np.array([[1, 0, 0], [0, 2, 0], [0, 0, 3]])
         C = np.array([[1, 2], [3, 4]])
         D = np.array([[1, 2], [2, 4]])
         self.assertTrue(
             np.allclose(
                 invert_matrix(A),
-                np.array([[-4.50359963e+15, 9.00719925e+15, -4.50359963e+15], [9.00719925e+15,-1.80143985e+16,9.00719925e+15], [-4.50359963e+15,9.00719925e+15,-4.50359963e+15]]),
+                np.array([[-1.33333333,0.,0.33333333], [0.66666667,1.,-0.66666667], [0.33333333,-0.66666667,0.33333333]]),
             )
         )
         self.assertTrue(
