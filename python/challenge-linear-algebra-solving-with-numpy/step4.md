@@ -6,7 +6,7 @@ Write a Python function `solve_linear_equation(A, b)` in `solve_linear_equation.
 
 - If `A.shape[0]` is not equal to `A.shape[1]` or `A.shape[0]` is not equal to `b.shape[0]`, the dimensions of matrix A and matrix b do not match, the function should raise a `ValueError` with an appropriate error message.
 - The `invert_matrix(matrix)` function in step1 returns the inverse of the `matrix`, here the `matrix` should be `matrix A`.
-- The `numpy.matual(matrix1,matrix2)` funtion returns the product of two matrices A and b, which is the solution to the linear equation Ax = b. Here matrix1 should be `inv_A` and matrix2 should be `b`.
+- The `numpy.matmul(matrix1,matrix2)` funtion returns the product of two matrices A and b, which is the solution to the linear equation Ax = b. Here matrix1 should be `inv_A` and matrix2 should be `b`.
 
 ## Example Input
 
