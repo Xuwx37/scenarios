@@ -1,8 +1,8 @@
 # Singular Value Decomposition
 
-Write a Python function `svd_matrix(matrix)` that takes a NumPy matrix as input and performs Singular Value Decomposition (SVD) on the matrix. The function should return three matrices: U, S, and V.
+Write a Python function `svd_matrix(matrix)` in `svd_matrix.py` that takes a NumPy matrix as input and performs Singular Value Decomposition (SVD) on the matrix. The function should return three matrices: $U$, $S$, and $V$.
 
-- The`numpy.linalg.svd(matrix)` funtion is used to perform Singular Value Decomposition (SVD) on the `matrix`, which returns three matrices: U, S, and V.
+- The`numpy.linalg.svd(matrix)` funtion is used to perform Singular Value Decomposition (SVD) on the `matrix`, which returns three matrices: $U$, $S$, and $V$.
 
 ## Example Input
 
@@ -34,7 +34,3 @@ V:
  [-0.77669099 -0.07568653  0.62531793]
  [-0.40824829  0.81649658 -0.40824829]]
 ```
-
-## TODO
-
-Completing `svd_matrix.py`

@@ -2,7 +2,7 @@
 
 ## TODO
 
-Write a Python function `determinant_matrix(matrix)` that takes a NumPy matrix as input and calculates its determinant. The function should return the determinant value as a float.
+Write a Python function `determinant_matrix(matrix)` in `determinant_matrix.py` that takes a NumPy matrix as input and calculates its determinant. The function should return the determinant value as a float.
 
 - The `numpy.linalg.det(matrix)` function is used to calculate the determinant of a NumPy `matrix` and it returns the determinant value as a float.
 
@@ -23,6 +23,4 @@ determinant_matrix(A)  # should return -0.0
 determinant_matrix(B)  # should return -2.0
 ```
 
-## TODO
 
-Completing `determinant_matrix.py`

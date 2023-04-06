@@ -1,6 +1,6 @@
 # Matrix Inversion
 
-Write a Python function `invert_matrix(matrix)` that takes a NumPy matrix as input and returns the inverse of the matrix. If the input matrix is not invertible, the function should raise a `ValueError` with an appropriate error message.
+Write a Python function `invert_matrix(matrix)` in `invert_matrix.py` that takes a NumPy matrix as input and returns the inverse of the matrix. If the input matrix is not invertible, the function should raise a `ValueError` with an appropriate error message.
 
 - `numpy.linalg.det(matrix)` function calculates the determinant of the input `matrix`.
 - If the determinant value of the matrix is zero, the `matrix` is not invertible, the function should raise a `ValueError` with an appropriate error message, e.g."Matrix is not invertible".
@@ -41,7 +41,3 @@ invert_matrix(C)  # should return:
 
 invert_matrix(D)  # should raise a ValueError with the message "Matrix is not invertible"
 ```
-
-## TODO
-
-- Completing `invert_matrix.py`

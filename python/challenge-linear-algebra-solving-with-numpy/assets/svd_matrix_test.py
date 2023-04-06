@@ -6,10 +6,11 @@ import numpy as np
 from svd_matrix import svd_matrix
 
 
-def test_svd_matrix(self):
-    A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-    U, S, V = svd_matrix(A)
-    self.assertTrue(np.allclose(U @ np.diag(S) @ V, A))
+class TestSingularValueDecomposition(unittest.TestCase):
+    def test_svd_matrix(self):
+        A = np.array([[2, 3, 4], [4, 8, 10], [7, 8, 9]])
+        U, S, V = svd_matrix(A)
+        self.assertTrue(np.allclose(U @ np.diag(S) @ V, A))
 
 
 if __name__ == "__main__":
