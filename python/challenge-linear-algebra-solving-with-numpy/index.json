@@ -18,7 +18,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["numpy/linalg","python/raise_errors","python/return_values","python/function_basic","python/function_arguments"]
+        "skills": ["numpy/linalg","python/raise_errors","python/return_values","python/function_basic","python/function_arguments"],
+        "solutions":["invert_matrix.py"]
       },
       {
         "title": "Singular Value Decomposition",
@@ -32,7 +33,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["numpy/linalg","python/tuple","python/return_values","python/function_basic","python/function_arguments"]
+        "skills": ["numpy/linalg","python/tuple","python/return_values","python/function_basic","python/function_arguments"],
+        "solutions":["svd_matrix.py"]
       },
       {
         "title": "Determinant Calculation",
@@ -46,7 +48,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["numpy/linalg","python/return_values","python/function_basic","python/function_arguments"]
+        "skills": ["numpy/linalg","python/return_values","python/function_basic","python/function_arguments"],
+        "solutions":["determinant_matrix.py"]
       },
       {
         "title": "Linear Equation Solver",
@@ -60,7 +63,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["numpy/linalg","numpy/matmul","python/raise_errors","python/return_values","python/function_basic","python/function_arguments"]
+        "skills": ["numpy/linalg","numpy/matmul","python/raise_errors","python/return_values","python/function_basic","python/function_arguments"],
+        "solutions":["solve_linear_equation.py"]
       },
       {
         "title": "Eigenvector and Eigenvalue Calculation",
@@ -74,7 +78,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["numpy/linalg","python/tuple","python/return_values","python/function_basic","python/function_arguments"]
+        "skills": ["numpy/linalg","python/tuple","python/return_values","python/function_basic","python/function_arguments"],
+        "solutions":["eigenvector_eigenvalue.py"]
       },
       {
         "title": "Matrix Rank Calculation",
@@ -88,7 +93,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["numpy/linalg","python/return_values","python/function_basic","python/function_arguments"]
+        "skills": ["numpy/linalg","python/return_values","python/function_basic","python/function_arguments"],
+        "solutions":["matrix_rank.py"]
       }
     ],
     "intro": {

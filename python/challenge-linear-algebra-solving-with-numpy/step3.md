@@ -18,9 +18,14 @@ A = np.array([[1, 2, 3],
 B = np.array([[1, 2],
               [3, 4]])
 
-determinant_matrix(A)  # should return -0.0
+print(determinant_matrix(A))
 
-determinant_matrix(B)  # should return -2.0
+print(determinant_matrix(B))
 ```
 
+## Example Output
 
+```lua
+-0.0
+-2.0
+```

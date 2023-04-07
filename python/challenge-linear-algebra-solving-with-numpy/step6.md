@@ -23,11 +23,17 @@ C = np.array([[1, 2, 3],
               [7, 8, 9],
               [10, 11, 12]])
 
-matrix_rank(A)  # should return 2
+print(matrix_rank(A))
 
-matrix_rank(B)  # should return 2
+print(matrix_rank(B))
 
-matrix_rank(C)  # should return 2
+print(matrix_rank(C))
 ```
 
+## Example Output
 
+```lua
+2
+2
+2
+```

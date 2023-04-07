@@ -18,7 +18,11 @@ A = np.array([[1, 2],
 
 b = np.array([5, 6])
 
-solve_linear_equation(A, b)  # should return array([-4. ,  4.5])
+print(solve_linear_equation(A, b))
 ```
 
+## Example Output
 
+```lua
+[-4. 4.5]
+```
