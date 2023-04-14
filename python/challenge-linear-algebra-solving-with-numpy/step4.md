@@ -18,7 +18,7 @@ A = np.array([[1, 2],
 
 b = np.array([5, 6])
 
-print("x:\n",solve_linear_equation(A, b))
+print("x:\n", solve_linear_equation(A, b))
 ```
 
 ## Example Output

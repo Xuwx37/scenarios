@@ -25,10 +25,10 @@ C = np.array([[1, 2],
 D = np.array([[1, 2],
               [2, 4]])
 
-print("invert_A:\n",invert_matrix(A))
-print("invert_B:\n",invert_matrix(B))
-print("invert_C:\n",invert_matrix(C))
-print("invert_D:\n",invert_matrix(D))
+print("invert_A:\n", invert_matrix(A))
+print("invert_B:\n", invert_matrix(B))
+print("invert_C:\n", invert_matrix(C))
+print("invert_D:\n", invert_matrix(D))
 ```
 
 ## Example Output

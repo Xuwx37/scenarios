@@ -14,7 +14,7 @@ import numpy as np
 A = np.array([[1, 2],
               [2, 1]])
 
-print("eigenvectors and eigenvalues:\n",eigenvector_eigenvalue(A))
+print("eigenvectors and eigenvalues:\n", eigenvector_eigenvalue(A))
 ```
 
 ## Example Output

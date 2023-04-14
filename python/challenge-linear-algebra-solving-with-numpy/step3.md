@@ -18,9 +18,9 @@ A = np.array([[1, 2, 3],
 B = np.array([[1, 2],
               [3, 4]])
 
-print("determinant_A:\n",determinant_matrix(A))
+print("determinant_A:\n", determinant_matrix(A))
 
-print("determinant_B:\n",determinant_matrix(B))
+print("determinant_B:\n", determinant_matrix(B))
 ```
 
 ## Example Output
