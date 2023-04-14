@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: 新建 Issue 前请务必了解
-    url: https://www.labex.wiki/zh/basic/new-issue
+    url: https://www.labex.wiki/zh/advanced/new-issue
     about: Please be sure to understand before creating a new issue.
   - name: 新人必读 For Newbie
     url: https://github.com/labex-labs/scenarios/issues/18
