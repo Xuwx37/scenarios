@@ -18,14 +18,16 @@ A = np.array([[1, 2, 3],
 B = np.array([[1, 2],
               [3, 4]])
 
-print(determinant_matrix(A))
+print("determinant_A:\n",determinant_matrix(A))
 
-print(determinant_matrix(B))
+print("determinant_B:\n",determinant_matrix(B))
 ```
 
 ## Example Output
 
 ```lua
+determinant_A:
 -0.0
+determinant_B:
 -2.0
 ```

@@ -14,12 +14,13 @@ import numpy as np
 A = np.array([[1, 2],
               [2, 1]])
 
-print(eigenvector_eigenvalue(A))
+print("eigenvectors and eigenvalues:\n",eigenvector_eigenvalue(A))
 ```
 
 ## Example Output
 
 ```lua
+eigenvectors and eigenvalues:
 (array([[ 0.70710678, -0.70710678],
         [ 0.70710678,  0.70710678]]), array([ 3., -1.]))
 ```

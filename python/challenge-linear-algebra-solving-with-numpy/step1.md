@@ -25,22 +25,26 @@ C = np.array([[1, 2],
 D = np.array([[1, 2],
               [2, 4]])
 
-print(invert_matrix(A))
-print(invert_matrix(B))
-print(invert_matrix(C))
-print(invert_matrix(D))
+print("invert_A:\n",invert_matrix(A))
+print("invert_B:\n",invert_matrix(B))
+print("invert_C:\n",invert_matrix(C))
+print("invert_D:\n",invert_matrix(D))
 ```
 
 ## Example Output
 
 ```lua
+invert_A:
 [[-0.5         1.         -0.5       ]
  [ 1.         -2.          1.        ]
  [-0.5         1.         -0.5       ]]
+invert_B:
 [[1.         0.         0.        ]
  [0.         0.5        0.        ]
  [0.         0.         0.33333333]]
+invert_C:
 [[-2.   1. ]
  [ 1.5  -0.5]]
+invert_D:
 ValueError: Matrix is not invertible
 ```

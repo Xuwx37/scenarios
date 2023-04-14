@@ -2,7 +2,7 @@
   "type": "challenge",
   "title": "Linear Algebra Solving with NumPy",
   "description": "In this challenge, you will learn to use the NumPy and Linear Algebra libraries to perform matrix inversion.",
-  "difficulty": "Intermediate",
+  "difficulty": "Beginner",
   "time": 30,
   "details": {
     "steps": [
