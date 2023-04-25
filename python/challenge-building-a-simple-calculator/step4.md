@@ -3,7 +3,7 @@
 Display the result of the calculation to the user. Use the `print()` function to display the result.
 
 - The `result` argument is float type, use `str()` function to convert float type to string type.
-  Please finish `display_result` function in `simple_calculator.py`.
+Please finish `display_result` function in `simple_calculator.py`.
 
 You can run `implement_calculator.py` to implement the calculator and check if your calculator is correct.
 

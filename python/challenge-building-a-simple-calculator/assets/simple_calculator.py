@@ -80,4 +80,3 @@ class simple_calculator:
         output = "Result: " + None
         print(output)
         return output
-

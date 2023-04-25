@@ -6,4 +6,3 @@
  2. Validate user input
  3. Perform the calculation
  4. Display the result
-
