@@ -1,3 +1,6 @@
+import sys
+
+sys.path.append("/home/labex/project")
 import unittest
 from io import StringIO
 from unittest.mock import patch

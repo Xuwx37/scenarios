@@ -1,3 +1,6 @@
+import sys
+
+sys.path.append("/home/labex/project")
 import unittest
 from simple_calculator import simple_calculator
 
