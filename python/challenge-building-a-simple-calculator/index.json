@@ -96,11 +96,13 @@
       "host01": [
         {
           "file": "simple_calculator.py",
-          "target": "/home/labex/project"
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
         },
         {
           "file": "implement_calculator.py",
-          "target": "/home/labex/project"
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
         },
         {
           "file": "*_test.py",
