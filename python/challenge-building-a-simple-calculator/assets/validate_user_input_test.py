@@ -20,7 +20,7 @@ class TestStep2(unittest.TestCase):
         result1 = simple_calculator().validate_user_input("abc", "def", "@")
         result2 = simple_calculator().validate_user_input("2", "3", "@")
         self.assertEqual(result1, "Please enter valid numbers")
-        self.assertEqual(result2, "Please enter valid operation")
+        self.assertEqual(result2, "Please enter a valid operation")
 
 
 
