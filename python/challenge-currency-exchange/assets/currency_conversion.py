@@ -5,10 +5,10 @@ def currency_conversion(original_currency, target_currency, amount):
     """
     Convert one currency to another based on the exchange rate.
 
-    Parameters:
-    amount (float): The amount of the original currency to be converted.
+    Args:
     original_currency (str): The three-letter currency code for the original currency.
     target_currency (str): The three-letter currency code for the target currency.
+    amount (float): The amount of the original currency to be converted.
 
     Returns:
     float: The equivalent amount of the target currency.

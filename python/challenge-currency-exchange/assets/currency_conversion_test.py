@@ -16,10 +16,10 @@ class TestCurrencyConverter(unittest.TestCase):
 
     def test_invalid_currency(self):
         with self.assertRaises(ValueError):
-            currency_conversion("ABC", "USD", 100)
+            currency_conversion("ABC", "eur", 100)
 
         with self.assertRaises(ValueError):
-            currency_conversion("USD", "XYZ", 100)
+            currency_conversion("eur", "XYZ", 100)
 
 
 if __name__ == "__main__":

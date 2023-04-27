@@ -8,7 +8,7 @@ Your task is to create a function in `currency_conversion.py` that converts an a
 
 1. The function should be named `currency_converter`.
 2. The function should take three arguments: `original_currency` (string), `target_currency` (string), and `amount` (float).
-3. The function should use an exchange rate API to get the exchange rate between the two currencies.
+3. The function should use the given json file to get the exchange rate between the two currencies.
 4. The function should return the converted amount as a float.
 
 ## Examples
@@ -25,4 +25,4 @@ ValueError: Target currency code not supported
 ```
 
 1. This function calls the function `get_exchange_rate()` in step 1 which retrieves the exchange rate between the two currencies.
-2. The converted amount is the `amount` of money multiplied by `exchange rate`.
+2. The converted amount is the `amount` of money multiplied by `exchange_rate`.

@@ -1,16 +1,27 @@
 import json
 
 
-def get_exchange_rate(source_currency, target_currency):
+def get_exchange_rate(original_currency, target_currency):
+    """
+    Calculate the exchange rate between the two currencies.
+
+    Args:
+    original_currency (str): The three-letter currency code for the original currency.
+    target_currency (str): The three-letter currency code for the target currency.
+
+    Returns:
+    exchange_rate(float): Return the exchange rate as a float.
+    """
     with open("/home/labex/project/usd.json", "r") as f:
         exchange_rates = json.load(f)
     try:
         source_rate = exchange_rates[None]["rate"]
     except:
-        raise ValueError(f"Invalid source currency: {source_currency}")
+        raise ValueError("Original currency code not supported")
     try:
         target_rate = exchange_rates[None]["rate"]
     except:
-        raise ValueError(f"Invalid target currency: {target_currency}")
+        raise ValueError("Target currency code not supported")
 
-    return target_rate / source_rate
+    exchange_rate = None
+    return exchange_rate
