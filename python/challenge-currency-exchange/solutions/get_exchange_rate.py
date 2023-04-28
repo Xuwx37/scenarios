@@ -15,7 +15,7 @@ def get_exchange_rate(source_currency, target_currency):
     with open("/home/labex/project/usd.json", "r") as f:
         exchange_rates = json.load(f)
     try:
-        source_rate = exchange_rates[source_currency]["rate"]
+        original_rate = exchange_rates[source_currency]["rate"]
     except:
         raise ValueError("Original currency code not supported")
     try:
@@ -23,5 +23,5 @@ def get_exchange_rate(source_currency, target_currency):
     except:
         raise ValueError("Target currency code not supported")
     
-    exchange_rate = target_rate / source_rate
+    exchange_rate = target_rate / original_rate
     return exchange_rate

@@ -15,7 +15,7 @@ def get_exchange_rate(original_currency, target_currency):
     with open("/home/labex/project/usd.json", "r") as f:
         exchange_rates = json.load(f)
     try:
-        source_rate = exchange_rates[None]["rate"]
+        original_rate = exchange_rates[None]["rate"]
     except:
         raise ValueError("Original currency code not supported")
     try:
